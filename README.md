@@ -1,42 +1,26 @@
-# TÍTULO DO PROJETO
+                                                                                                                                   # TÍTULO DO PROJETO
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
-`Disciplina: NOME DA DISCIPLINA`
-`2021 - Semestre 1`
+`Disciplina: Modelagem 3D`
+`2024 - Semestre 1`
 
 ## Integrantes
 
-- Jeff Bezos
-- Bill Gates
-- Larry Ellison
-- Mark Zuckerberg
+- Eduardo Dutra
+- Vinícius Justino
 
 ## Professor
 
-- Mestre Yoda
+- Will Machado
 
-# Documentação
+# Ativida Desenvolvida
 
-<ol>
-<li><a href="docs/1-Documentação de Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="docs/2-Especificação do Projeto.md"> Especificação do Projeto</a></li>
-<li><a href="docs/3-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="docs/4-Metodologia.md"> Metodologia</a></li>
-<li><a href="docs/5-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
-<li><a href="docs/6-Template padrão do Site.md"> Template padrão do Site</a></li>
-<li><a href="docs/7-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="docs/8-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
-<li><a href="docs/9-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="docs/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
-<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
-<li><a href="docs/13-Referências.md"> Referências</a></li>
-</ol>
-
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
-# Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<p>Nessa atividade escolhemos trabalhar com a captura de movimentos utilizando a inteligência artificial do software Rokoko Studio.</p>
+<p>A inteligência artificial do software funciona do seguinte modo: primeiramente fizemos um upload de um vídeo com movimentos bem visíveis, com isso,
+a inteligência artificial consegue reconhecer os membros humanóides que estão se mexendo e transformar o vídeo que enviamos em uma animação 3D</p>
+<p>Depois do processamento da IA pegamos o modelo de animação .fbx e exportamos ele para o Blender, e dentro da ferramenta de modelagem a
+animação estava funcionando perfeitamente. O próximo passo foi selecionar um modelo inanimado de um personagem 3D, para isso utilizamos um template gratuito do
+site <a href="mixamo.com">Mixamo</a> e exportamos como um .fbx dentro do Blender junto com o esqueleto animado</p>
+<p>No processo de colocar a animação no corpo modelo aprendemos um pouco sobre como funciona a disposição dos bones do Blender, pois, para conseguirmos
+colocar o modelo pra fazer os movimentos retirados do Mocap tivemos que conectar os bones dele com os do esqueleto animado retirado do Rokoko Studio. Funcionou perfeitamente
+e o resultado do processamento por IA é impressionantemente preciso</p>
